@@ -1,0 +1,541 @@
+/* FONTS */
+
+@font-face {
+	font-family: 'Satellite';
+	src: url('../fonts/Satellite.eot');
+	src: url('../fonts/Satellite.woff') format('woff'), url('../fonts/Satellite.ttf') format('truetype'), url('../fonts/Satellite.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Socialico';
+	src: url('../fonts/Socialico.eot');
+	src: url('../fonts/Socialico.woff') format('woff'), url('../fonts/Socialico.ttf') format('truetype'), url('../fonts/Socialico.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Flatform_Light';
+	src: url('../fonts/Flatform_Light.eot');
+	src: url('../fonts/Flatform_Light.woff') format('woff'), url('../fonts/Flatform_Light.ttf') format('truetype'), url('../fonts/Flatform_Light.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* --- GENERAL RULES --- */
+
+body
+{
+font-family: 'Open Sans', sans-serif;
+color: #4D4D4D;
+}
+
+a
+{
+text-decoration: none;
+color: #4D4D4D;
+}
+
+#wrapper
+{
+padding: 0;
+margin: 0 auto;
+}
+
+li
+{
+list-style: none;
+}
+
+h1
+{
+font-family: 'Flatform_Light';
+font-size: 2.5rem;
+float: left;
+margin: 2.875rem 0;
+}
+
+h3
+{
+font-size: 1.875rem;
+font-weight: 600;
+text-transform: uppercase;
+}
+
+#content p
+{
+font-size: 0.875rem;
+}
+
+ul
+{
+padding: 0;
+}
+
+.align_content
+{
+width: 60rem;
+margin: 0 auto;
+}
+
+#intro, #services, #video, #recent_work, #subscription, #social_media
+{
+margin: 5rem 0;
+}
+
+h3, h4, p, #intro, #subscription, .video_embedded, #social_media ul
+{
+text-align: center;
+}
+
+#navigation li, #recent_work li, #social_media ul li, #footer ul, .mug, .gauge, .engine, .arrow
+{
+display: inline-block;
+}
+
+.arrow
+{
+background: url(../img/arrow.png) no-repeat center right;
+padding-left: 0.5rem;
+width: 1.0625rem;
+height: 0.3125rem;
+margin: 0 0 0.125rem;
+}
+
+/* --- #HEADER RULES --- */
+
+#navigation
+{
+float: right;
+}
+
+#navigation li
+{
+position: relative;
+margin: 0 1.75rem;
+}
+
+#navigation ul
+{
+margin: 4.031rem 0;
+}
+
+#navigation li:first-child
+{
+margin-left: 0;
+}
+
+#navigation li:last-child
+{
+margin-right: 0;
+}
+
+#navigation li a:hover
+{
+box-shadow: 0 1px 0 #4D4D4D;
+}
+
+#intro
+{
+overflow: hidden;
+height: 40.75rem;
+clear: both;
+background: url(../img/bg.jpg) no-repeat center center;
+background-size: 100%;
+}
+
+#intro h2
+{
+font-family: 'Satellite', 'Open Sans', Arial, sans-serif;
+font-weight: 400;
+font-size: 3.125rem;
+margin: 14.1875rem 0 1.875rem;
+}
+
+#intro p
+{
+margin: 0 0 3.75rem;
+}
+
+#intro a
+{
+color: #FFFFFF;
+text-transform: uppercase;
+margin: 0;
+}
+/* --- #SERVICES RULES --- */
+
+#services
+{
+overflow: hidden;
+height: auto;
+}
+
+#services ul
+{
+overflow: hidden;
+height: auto;
+margin: 0;
+}
+
+#services h3
+{
+margin: 0 0 2.5rem;
+}
+
+.mug, .gauge, .engine
+{
+width: 16.56rem;
+padding-top: 4.4375rem;
+margin: 0;
+}
+
+#services h4
+{
+text-transform: uppercase;
+margin: 2.5rem 0;
+font-weight: 400;
+font-size: 1.375rem;
+padding: 0;
+}
+
+#services p
+{
+margin: 0;
+}
+
+.mug
+{
+background: url(../img/mug.png) no-repeat top center;
+margin-right: 2.45rem;
+}
+
+.gauge
+{
+background: url(../img/gauge.png) no-repeat top center;
+margin: 0 2.45rem;
+}
+
+.engine
+{
+background: url(../img/engine.png) no-repeat top center;
+margin-left: 2.45rem;
+}
+
+/* --- #VIDEO RULES --- */
+
+#video h3
+{
+margin: 5rem 0 0rem;
+}
+
+#video p
+{
+margin: 1.5rem 0 2.5rem;
+}
+
+.video_embedded
+{
+position: relative;
+}
+
+.play_btn
+{
+background: url(../img/play_btn.png) no-repeat left top;
+display: block;
+position: absolute;
+border-radius: 50%;
+text-indent: -9999px;
+left: 50%;
+top: 50%;
+width: 5.625rem;
+height: 5.625rem;
+margin-left: -2.8125rem;
+margin-top: -2.8125rem;
+}
+
+.play_btn:hover
+{
+background: url(../img/play_btn_hover.png) no-repeat left top;
+border-radius: 50%;
+}
+
+/* --- #RECENT_WORK RULES --- */
+
+#recent_work ul
+{
+overflow: hidden;
+height: auto;
+margin: 0;
+}
+
+#recent_work ul li:first-child
+{
+margin-left: 0;
+}
+
+#recent_work ul li:last-child
+{
+margin-right: 0;
+}
+
+#recent_work h3
+{
+margin: 0 0 2.5rem;
+}
+
+#recent_work li
+{
+width: 12.9rem;
+height: 15.75rem;
+margin: 0 1.2667rem;
+background: #F7F7F7;
+position: relative;
+}
+
+#recent_work li h4
+{
+color: #D1D1D1;
+text-transform: uppercase;
+font-style: italic;
+margin: 7.2rem 0 0;
+}
+
+#recent_work li p
+{
+color: #D1D1D1;
+font-size: 0.75rem;
+margin: 0;
+}
+
+#recent_work li a
+{
+display: none;
+position: absolute;
+bottom: 0;
+background: #575757;
+color: #FFFFFF;
+width: 100%;
+left: 0;
+padding: 0.86rem 0;
+text-align: center;
+text-transform: capitalize;
+font-weight: 600;
+}
+
+#recent_work li:hover a
+{
+display: block;
+}
+
+/* --- #SUBSCRIPTION RULES --- */
+
+#subscription
+{
+background: #F5F5F5;
+padding: 4.5rem 0;
+border-top: 1px solid #E7E7E7;
+border-bottom: 1px solid #E7E7E7;
+}
+
+#subscription h3
+{
+margin: 0 0 1.35rem;
+}
+
+#subscription p
+{
+margin: 1.35rem 0;
+}
+
+#subscription form
+{
+margin: 1.35rem 0 0;
+}
+
+input[type=email], input[type=submit]
+{
+border: 2px solid #D2D2D2;
+width: 12rem;
+height: 2rem;
+padding: 0;
+text-indent: 8px;
+}
+
+input[type=submit]
+{
+background: #FFFFFF;
+border: 2px solid #000000;
+text-transform: uppercase;
+color: #000000;
+font-weight: 600;
+height: 2.25rem;
+}
+
+#social_media ul li
+{
+font-family: 'Socialico', Arial, sans-serif;
+font-size: 1.875rem;
+width: 4.4375rem;
+height: 4.375rem;
+margin: 0 1.875rem;
+}
+
+#social_media ul li a
+{
+display: block;
+padding: 1rem 0;
+}
+
+#social_media ul li:hover
+{
+background: #55ACEE;
+color: #FFFFFF;
+}
+
+#social_media ul li a:hover
+{
+color: #FFFFFF;
+}
+
+#footer
+{
+background: #3B3B3B;
+padding: 5rem 0;
+color: #EBEBEB;
+overflow: hidden;
+height: auto;
+}
+
+#footer ul
+{
+margin-top: 0;
+}
+
+#footer .list
+{
+width: 14rem;
+float: left;
+margin: 0 0.5rem;
+}
+
+#footer ul li:first-child
+{
+color: #FFFFFF;
+font-size: 1.125rem;
+font-weight: 600;
+}
+
+#footer ul li, #footer ul li a
+{
+font-size: 0.875rem;
+margin: 0.5rem 0;
+}
+
+#footer ul li a
+{
+color: #EBEBEB;
+}
+
+#footer .link
+{
+font-weight: 700;
+text-decoration: underline;
+}
+
+/* --- hangman.html RULES --- */
+
+#hangman_game
+{
+overflow: hidden;
+width: auto;
+clear: both;
+text-align: center;
+font-family: 'Satellite', Helvetica, Arial, sans-serif;
+font-size: 1rem;
+margin: 0 auto 5rem;
+}
+
+#hangman_game .letter_btn, #hangman_game .game_word_letters, #hangman_game .game_word_letters_show, #hangman_game .play_game, #hangman_game h2
+{
+text-transform: uppercase;
+}
+
+#hangman_game h2
+{
+margin: 0 auto 2.5rem;
+font-family: 'Open Sans', 'Satellite', Helvetica, Arial, sans-serif;
+font-size: 1.875rem;
+font-weight: 600;
+}
+
+#hangman_game .letter_btn
+{
+padding: 1rem;
+margin: 0.25rem 0.125rem;
+border: 1px solid #C8C8C8;
+border-radius: 4px;
+display: inline-block;
+width: 1.125rem;
+height: 1.125rem;
+}
+
+#hangman_game #letters
+{
+margin: 2.5rem auto;
+display: inline-block;
+}
+
+#hangman_game .game_word_letters, #hangman_game .game_word_letters_show
+{
+background: #F5F5F5;
+padding: 1rem;
+margin: 0 0.125rem;
+border-radius: 3px;
+display: inline-block;
+width: 1.125rem;
+height: 1.125rem;
+text-indent: -9999px;
+}
+
+#hangman_game .game_word_letters_show
+{
+text-indent: 0px;
+}
+
+#hangman_game .letter_btn:hover
+{
+background: #55ACEE;
+border: 1px solid #55ACEE;
+color: #FFFFFF;
+cursor: pointer;
+}
+
+#hangman_game .play_game
+{
+padding: 1rem;
+margin: 0.25rem 0.125rem;
+border: 1px solid #C8C8C8;
+border-radius: 4px;
+display: inline-block;
+width: 2.75rem;
+height: 1.125rem;
+}
+
+#hangman_game .play_game:hover
+{
+background: #DC3C3C;
+border: 1px solid #DC3C3C;
+color: #FFFFFF;
+cursor: pointer;
+}
+
+#hangman_game .tip
+{
+font-family: 'Open Sans', 'Satellite', Helvetica, Arial, sans-serif;
+font-size: 1rem;
+font-style: italic;
+margin: 1.25rem auto 0;
+}
